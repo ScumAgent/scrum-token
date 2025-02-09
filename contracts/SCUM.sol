@@ -5,7 +5,7 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract SCUM is ERC20 {
     constructor() ERC20("Scum AI Agent", "SCUM") {
-        _mint(msg.sender, 10 * 8 ether);
+        _mint(msg.sender, 100000000 ether);
     }
 
     function mint() external {
