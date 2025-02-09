@@ -24,7 +24,7 @@ module.exports = {
       },
       chainId: 421614,
     },
-    wemix: {
+    arbtest: {
       url: "https://arbitrum-sepolia-rpc.publicnode.com",
       chainId: 421614,
       accounts: [process.env.PK],
